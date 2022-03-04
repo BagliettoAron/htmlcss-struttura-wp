@@ -16,8 +16,6 @@
     clear: both;
 }
 
-
-
 /* MAIN CONTAINER */
 
 .container{
@@ -26,18 +24,8 @@
 }
 
 .cont-top{
-    background-color: aquamarine;
     width: 80%;
 }
-
-.radius{
-    border-radius: 15px;
-}
-
-.radius{
-    border-radius: 15px;
-}
-
 
 /* COMMON */
 
@@ -45,16 +33,10 @@
     margin:30px 0;
 }
 
-/* HEADER */
-
-.header{
-    background-color: blueviolet;
-}
-
 /* HEADER LOGO */
 
 .header-logo img{
-    border-right: 2px solid grey;
+    border-right: 1px solid rgb(204, 204, 204);
 }
 
 /* HEADER NAV */
@@ -69,7 +51,6 @@ header nav a{
 
 .section-top{
     height: 400px;
-    background-color: coral;
     position: relative;
 }
 
@@ -102,6 +83,7 @@ section img{
     color: rgb(252, 252, 252);
     left: 0;
     bottom: 0;
+    border-radius: 15px;
 }
 
 
@@ -115,7 +97,6 @@ section img{
 
 .summary{
     height: 75px;
-    background-color: red;
     margin-bottom: 20px;
 }
 
@@ -134,13 +115,11 @@ section img{
 
 .article{
     width: 25%;
-    background-color: green;
     float: left;
 }
 
 .center{
     width:calc(50% - 40px);
-    background-color: yellow;
     float: left;
     margin: 0 20px;
 }
@@ -159,7 +138,6 @@ section img{
     margin: 20px 0;
 }
 
-
 h3 + p{
     color: grey;
 }
@@ -168,7 +146,6 @@ h3 + p{
 
 .footer{
     height: 70px;
-    background-color: blueviolet;
 }
 
 footer > p{
